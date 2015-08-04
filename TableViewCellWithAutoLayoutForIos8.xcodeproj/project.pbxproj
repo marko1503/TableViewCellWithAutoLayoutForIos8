@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		D0F541761B708C0000C812AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F541751B708C0000C812AC /* main.m */; };
 		D0F541791B708C0000C812AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F541781B708C0000C812AC /* AppDelegate.m */; };
-		D0F5417C1B708C0000C812AC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5417B1B708C0000C812AC /* MasterViewController.m */; };
-		D0F5417F1B708C0000C812AC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5417E1B708C0000C812AC /* DetailViewController.m */; };
-		D0F541821B708C0000C812AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F541801B708C0000C812AC /* Main.storyboard */; };
 		D0F541841B708C0000C812AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F541831B708C0000C812AC /* Images.xcassets */; };
 		D0F541871B708C0000C812AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F541851B708C0000C812AC /* LaunchScreen.xib */; };
 		D0F541931B708C0000C812AC /* TableViewCellWithAutoLayoutForIos8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F541921B708C0000C812AC /* TableViewCellWithAutoLayoutForIos8Tests.m */; };
+		D0F5419F1B708D8600C812AC /* DynamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5419E1B708D8600C812AC /* DynamicTableViewController.m */; };
+		D0F541A21B708DD100C812AC /* DynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F541A11B708DD100C812AC /* DynamicTableViewCell.m */; };
+		D0F542471B7093FC00C812AC /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5423F1B7093FC00C812AC /* ALView+PureLayout.m */; };
+		D0F542481B7093FC00C812AC /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F542411B7093FC00C812AC /* NSArray+PureLayout.m */; };
+		D0F542491B7093FC00C812AC /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F542431B7093FC00C812AC /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,24 @@
 		D0F541751B708C0000C812AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0F541771B708C0000C812AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0F541781B708C0000C812AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0F5417A1B708C0000C812AC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D0F5417B1B708C0000C812AC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		D0F5417D1B708C0000C812AC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		D0F5417E1B708C0000C812AC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		D0F541811B708C0000C812AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0F541831B708C0000C812AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0F541861B708C0000C812AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D0F5418C1B708C0000C812AC /* TableViewCellWithAutoLayoutForIos8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellWithAutoLayoutForIos8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F541911B708C0000C812AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0F541921B708C0000C812AC /* TableViewCellWithAutoLayoutForIos8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellWithAutoLayoutForIos8Tests.m; sourceTree = "<group>"; };
+		D0F5419D1B708D8600C812AC /* DynamicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTableViewController.h; sourceTree = "<group>"; };
+		D0F5419E1B708D8600C812AC /* DynamicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTableViewController.m; sourceTree = "<group>"; };
+		D0F541A01B708DD100C812AC /* DynamicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTableViewCell.h; sourceTree = "<group>"; };
+		D0F541A11B708DD100C812AC /* DynamicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTableViewCell.m; sourceTree = "<group>"; };
+		D0F5423E1B7093FC00C812AC /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		D0F5423F1B7093FC00C812AC /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		D0F542401B7093FC00C812AC /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		D0F542411B7093FC00C812AC /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		D0F542421B7093FC00C812AC /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		D0F542431B7093FC00C812AC /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		D0F542441B7093FC00C812AC /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		D0F542451B7093FC00C812AC /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		D0F542461B7093FC00C812AC /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +94,10 @@
 		D0F541721B708C0000C812AC /* TableViewCellWithAutoLayoutForIos8 */ = {
 			isa = PBXGroup;
 			children = (
+				D0F5423D1B7093FC00C812AC /* PureLayout */,
 				D0F541771B708C0000C812AC /* AppDelegate.h */,
 				D0F541781B708C0000C812AC /* AppDelegate.m */,
-				D0F5417A1B708C0000C812AC /* MasterViewController.h */,
-				D0F5417B1B708C0000C812AC /* MasterViewController.m */,
-				D0F5417D1B708C0000C812AC /* DetailViewController.h */,
-				D0F5417E1B708C0000C812AC /* DetailViewController.m */,
-				D0F541801B708C0000C812AC /* Main.storyboard */,
+				D0F5419C1B708D2200C812AC /* TableView with dynamic cells */,
 				D0F541831B708C0000C812AC /* Images.xcassets */,
 				D0F541851B708C0000C812AC /* LaunchScreen.xib */,
 				D0F541731B708C0000C812AC /* Supporting Files */,
@@ -122,6 +129,33 @@
 				D0F541911B708C0000C812AC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F5419C1B708D2200C812AC /* TableView with dynamic cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5419D1B708D8600C812AC /* DynamicTableViewController.h */,
+				D0F5419E1B708D8600C812AC /* DynamicTableViewController.m */,
+				D0F541A01B708DD100C812AC /* DynamicTableViewCell.h */,
+				D0F541A11B708DD100C812AC /* DynamicTableViewCell.m */,
+			);
+			path = "TableView with dynamic cells";
+			sourceTree = "<group>";
+		};
+		D0F5423D1B7093FC00C812AC /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5423E1B7093FC00C812AC /* ALView+PureLayout.h */,
+				D0F5423F1B7093FC00C812AC /* ALView+PureLayout.m */,
+				D0F542401B7093FC00C812AC /* NSArray+PureLayout.h */,
+				D0F542411B7093FC00C812AC /* NSArray+PureLayout.m */,
+				D0F542421B7093FC00C812AC /* NSLayoutConstraint+PureLayout.h */,
+				D0F542431B7093FC00C812AC /* NSLayoutConstraint+PureLayout.m */,
+				D0F542441B7093FC00C812AC /* PureLayout+Internal.h */,
+				D0F542451B7093FC00C812AC /* PureLayout.h */,
+				D0F542461B7093FC00C812AC /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +221,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = D0F541671B708C0000C812AC;
 			productRefGroup = D0F541711B708C0000C812AC /* Products */;
@@ -204,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F541821B708C0000C812AC /* Main.storyboard in Resources */,
 				D0F541871B708C0000C812AC /* LaunchScreen.xib in Resources */,
 				D0F541841B708C0000C812AC /* Images.xcassets in Resources */,
 			);
@@ -224,10 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F542491B7093FC00C812AC /* NSLayoutConstraint+PureLayout.m in Sources */,
 				D0F541791B708C0000C812AC /* AppDelegate.m in Sources */,
-				D0F5417C1B708C0000C812AC /* MasterViewController.m in Sources */,
 				D0F541761B708C0000C812AC /* main.m in Sources */,
-				D0F5417F1B708C0000C812AC /* DetailViewController.m in Sources */,
+				D0F541A21B708DD100C812AC /* DynamicTableViewCell.m in Sources */,
+				D0F542471B7093FC00C812AC /* ALView+PureLayout.m in Sources */,
+				D0F542481B7093FC00C812AC /* NSArray+PureLayout.m in Sources */,
+				D0F5419F1B708D8600C812AC /* DynamicTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +287,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0F541801B708C0000C812AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0F541811B708C0000C812AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0F541851B708C0000C812AC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -354,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewCellWithAutoLayoutForIos8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewCellWithAutoLayoutForIos8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

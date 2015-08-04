@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  DynamicTableViewController.h
 //  TableViewCellWithAutoLayoutForIos8
 //
 //  Created by Maksym Prokopchuk on 8/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
-
+@interface DynamicTableViewController : UITableViewController
 
 @end
-
